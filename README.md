@@ -6,3 +6,7 @@
 1. **Zeroth-Order Policy Gradient for Reinforcement Learning from Human Feedback without Reward Inference** ICLR 2025. [Paper](https://openreview.net/forum?id=cmYScmfu4Q)
 
    *Qining Zhang, Lei Ying*
+   
+   Moti: Reward function construction bottleneck: RLHF -> DPO -> GRPO.
+
+   Design: Directly apply policy-gradient through ZO-based value function estimation.
